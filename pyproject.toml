@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srec_bytearray"
+version = "0.1.0"
+description = "S-Record file manipulation using Python bytearrays"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["srec_bytearray"]
